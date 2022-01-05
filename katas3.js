@@ -18,7 +18,7 @@ function kata1() {
        myArray.push(contador)
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata1()
@@ -32,7 +32,7 @@ function kata2() {
         myArray.push(contador)
     }
     showResults(myArray)
-    return myArray
+    
 
 }
 
@@ -48,7 +48,7 @@ function kata3() {
         myArray.push(num)
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata3()
@@ -62,7 +62,7 @@ function kata4() {
         myArray.push(num)
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata4()
@@ -82,7 +82,7 @@ function kata5() {
         myArray.push(num)
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata5()
@@ -96,7 +96,7 @@ function kata6() {
     }
 }  
     showResults(myArray)
-    return myArray
+    
 }
 
 kata6()
@@ -112,7 +112,7 @@ function kata7() {
         }
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata7()
@@ -128,7 +128,7 @@ function kata8() {
         }
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata8()
@@ -144,7 +144,7 @@ function kata9() {
         }
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata9()
@@ -171,7 +171,7 @@ function kata11() {
         }
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata11()
@@ -204,7 +204,7 @@ function kata13() {
         }
     }
     showResults(myArray)
-    return myArray
+    
 }
 
 kata13()
@@ -217,7 +217,7 @@ function kata14() {
     myArray.push(sampleArray[contador]* sampleArray[contador])
     }
     showResults(myArray)
-    return myArray 
+    
 }
 
 kata14();
@@ -232,7 +232,7 @@ function kata15() {
             result += arr[contador]
             myArray.push(result)
         }    
-        showResults(myArray)       
+        showResults(result)       
  }
  
  kata15()
@@ -247,7 +247,7 @@ function kata16() {
         result +=sampleArray[contador]
         myArray.push(result)
     }
-    showResults(myArray)
+    showResults(result)
 }
 
 kata16()
